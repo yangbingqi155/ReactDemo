@@ -80,6 +80,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -222,6 +224,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\build\browser.min.js" />
+    <Content Include="Scripts\build\jquery.min.js" />
+    <Content Include="Scripts\build\JSXTransformer.js" />
+    <Content Include="Scripts\build\react-0.13.4.js" />
+    <Content Include="Scripts\build\react-0.13.4.min.js" />
+    <Content Include="Scripts\build\react-0.14.0.js" />
+    <Content Include="Scripts\build\react-dom-0.14.0.js" />
+    <Content Include="Scripts\build\react-dom.js" />
+    <Content Include="Scripts\build\react-with-addons.js" />
+    <Content Include="Scripts\build\react-with-addons.min.js" />
+    <Content Include="Scripts\build\react.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -278,6 +291,9 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
