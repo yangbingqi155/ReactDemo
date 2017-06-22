@@ -212,9 +212,9 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="demo.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -230,7 +230,6 @@
     <Content Include="package.json" />
     <Content Include="Scripts\react\demo.js" />
     <Content Include="webpack.config.js" />
-    <Content Include="demo.jsx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\build\browser.min.js" />
     <Content Include="Scripts\build\jquery.min.js" />
